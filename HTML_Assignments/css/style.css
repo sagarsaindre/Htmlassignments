@@ -27,17 +27,26 @@
 .text-center {
   text-align: center;
 }
-.verticalLine {
-  border-right: thick solid #ff0000;
-}
 .background {
-position: relative;
+  position: relative;
+  width: 100%;
 }
-.layer {
+.overlay {
   position:absolute;
-  background-color:rgba(128,128,128,0.8);
+  background-color:rgba(44,62,80,0.6);
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+}
+.overlayimage {
+  width: 50%;
+}
+.overlaytext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  text-align: center;
 }
